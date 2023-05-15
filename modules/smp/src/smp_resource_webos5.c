@@ -4,7 +4,7 @@
 
 struct StarfishResource {
     const char *windowId;
-    int maxRefreshRate;
+    unsigned int maxRefreshRate;
 };
 
 StarfishResource *StarfishResourceCreate(const char *appId) {
